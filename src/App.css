@@ -1,0 +1,6 @@
+.App {
+  /* text-align: center; */
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 40%;
+}
