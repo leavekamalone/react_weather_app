@@ -17,7 +17,7 @@ function getForecast(e) {
     }
 
     setIsLoaded(false);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6bd53825405bf47d7f2b3e2cad14a063`, {mode: 'cors'})
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${idhere}`, {mode: 'cors'})
     .then(res => res.json())
     .then(
       (result) => {
